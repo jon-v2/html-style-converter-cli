@@ -1,0 +1,43 @@
+{
+  "name": "html-style-converter-cli",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "cli for html-style-converter npm package for automating bulk style conversions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-v2/html-style-converter-cli.git"
+  },
+  "author": "jonv2.0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jon-v2/html-style-converter-cli/issues"
+  },
+  "homepage": "https://github.com/jon-v2/html-style-converter-cli#readme",
+  "keywords": [
+    "html-style-converter",
+    "CLI",
+    "HTML conversion",
+    "Bulk conversion",
+    "HTML to CSS",
+    "CSS to inline styles",
+    "Command-line tool",
+    "HTML batch processing",
+    "CSS class extraction",
+    "HTML file manipulation",
+    "CLI utility",
+    "HTML styling automation",
+    "CSS integration tool",
+    "Front-end development",
+    "Command-line interface",
+    "HTML transformation",
+    "HTML batch processing"
+  ],
+  "dependencies": {
+    "commander": "^11.0.0",
+    "html-style-converter": "^1.2.0"
+  }
+}
