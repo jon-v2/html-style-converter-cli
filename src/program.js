@@ -10,7 +10,7 @@ program
     .description('HTML Style Converter CLI');
 
 program
-    .command('inlineToClass')
+    .command('toclass')
     .description('Converts inline styles to CSS classes in HTML files')
     .option('-i, --input <directory>', 'Input directory containing HTML files')
     .option('-o, --output <directory>', 'Output directory to save converted HTML files')
@@ -28,7 +28,7 @@ program
     });
 
 program
-    .command('classToInline')
+    .command('toinline')
     .description('Converts CSS classes to inline styles in HTML files')
     .option('-i, --input <directory>', 'Input directory containing HTML files')
     .option('-o, --output <directory>', 'Output directory to save converted HTML files')

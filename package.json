@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "cli for html-style-converter npm package for automating bulk style conversions",
   "main": "index.js",
+  "bin": {
+    "html-style-converter": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

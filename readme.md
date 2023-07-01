@@ -16,8 +16,8 @@ To use the HTML Style Converter CLI, run the following command:
 
 ### Commands
 
-- `inlineToclass`: Converts inline styles to CSS classes in HTML files.
-- `classToinline`: Converts CSS classes to inline styles in HTML files.
+- `toclass`: Converts inline styles to CSS classes in HTML files.
+- `toinline`: Converts CSS classes to inline styles in HTML files.
 
 ### Options
 
@@ -29,11 +29,11 @@ To use the HTML Style Converter CLI, run the following command:
 
 Convert inline styles to CSS classes in HTML files within a directory:
 
-> html-style-converter inlineToclass -i ./input-directory -o ./output-directory
+> html-style-converter toclass -i ./input-directory -o ./output-directory
 
 Convert CSS classes to inline styles in HTML files within a directory:
 
-> html-style-converter classToinline -i ./input-directory -o ./output-directory
+> html-style-converter toinline -i ./input-directory -o ./output-directory
 
 ## Contributing
 
@@ -41,4 +41,4 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
