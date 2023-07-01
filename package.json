@@ -38,6 +38,6 @@
   ],
   "dependencies": {
     "commander": "^11.0.0",
-    "html-style-converter": "^1.2.0"
+    "html-style-converter": "^1.4.0"
   }
 }
