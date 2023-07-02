@@ -15,13 +15,16 @@ export const convert = (input, output, type) => new Promise(async (resolve, reje
                 const html = fs.readFileSync(filePath, 'utf8');
                 const convertedHtml = convertFiles(html);
                 const outputFilePath = path.join(output, file);
+                console.log('???', outputFilePath);
                 await fs.promises.writeFile(outputFilePath, convertedHtml);
                 console.log('\x1b[32m%s\x1b[0m', `✓ ${file}`);
             }));
         } else if (isHtml) {
+            const file = path.basename(input);
             const html = await fs.promises.readFile(input, 'utf8');
             const convertedHtml = convertFiles(html);
-            await fs.promises.writeFile(output, convertedHtml);
+            const outputFilePath = path.join(output, file);
+            await fs.promises.writeFile(outputFilePath, convertedHtml);
             console.log('\x1b[32m%s\x1b[0m', `✓ ${file}`);
         }
 
