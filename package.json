@@ -1,8 +1,8 @@
 {
   "name": "html-style-converter-cli",
   "type": "module",
-  "version": "1.0.0",
-  "description": "cli for html-style-converter npm package for automating bulk style conversions",
+  "version": "1.1.0",
+  "description": "html-style-converter CLI tool",
   "main": "index.js",
   "bin": {
     "html-style-converter": "./index.js"
