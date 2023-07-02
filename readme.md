@@ -6,13 +6,17 @@ The HTML Style Converter CLI is a command-line tool that incorporates the functi
 
 You can install the HTML Style Converter CLI globally using npm:
 
-> npm install -g html-style-converter-cli
+```shell
+npm install -g html-style-converter-cli
+```
 
 ## Usage
 
 To use the HTML Style Converter CLI, run the following command:
 
-> html-style-converter `<command>` [options]
+```shell
+html-style-converter `<command>` [options]
+```
 
 ### Commands
 
@@ -29,11 +33,16 @@ To use the HTML Style Converter CLI, run the following command:
 
 Convert inline styles to CSS classes in HTML files within a directory:
 
-> html-style-converter toclass -i ./input-directory -o ./output-directory
+```shell
+html-style-converter toclass -i ./input-directory -o ./output-directory
+```
 
 Convert CSS classes to inline styles in HTML files within a directory:
 
-> html-style-converter toinline -i ./input-directory -o ./output-directory
+```shell
+html-style-converter toinline -i ./input-directory -o ./output-directory
+```
+
 
 ## Contributing
 
