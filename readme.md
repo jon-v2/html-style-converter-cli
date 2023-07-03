@@ -43,6 +43,11 @@ Convert CSS classes to inline styles in HTML files within a directory:
 html-style-converter toinline -i ./input-directory -o ./output-directory
 ```
 
+The CLI tool also allows for HTML file path instead of input directory:
+
+```shell
+html-style-converter toinline -i ./input-directory/example.html -o ./output-directory
+```
 
 ## Contributing
 
