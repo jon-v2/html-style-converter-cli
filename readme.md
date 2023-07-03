@@ -25,7 +25,7 @@ html-style-converter `<command>` [options]
 
 ### Options
 
-- `-i, --input <directory>`: Specifies the input directory containing the HTML files to be converted.
+- `-i, --input <directory or file path>`: Specifies the input directory containing the HTML files to be converted.
 - `-o, --output <directory>`: Specifies the output directory where the converted HTML files will be saved. (Optional: If not provided, the converted files will overwrite the original files.)
 - `-h, --help`: Displays the help information for the CLI.
 
